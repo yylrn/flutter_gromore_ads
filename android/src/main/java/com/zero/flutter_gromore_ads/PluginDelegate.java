@@ -206,9 +206,11 @@ public class PluginDelegate implements MethodChannel.MethodCallHandler, EventCha
         String posId = call.argument(KEY_POSID);
         String logo = call.argument(KEY_LOGO);
         double timeout = call.argument(KEY_TIMEOUT);
+         int buttonType = call.argument(KEY_SPLASH_BUTTON_TYPE);
         Intent intent = new Intent(activity, AdSplashActivity.class);
         intent.putExtra(KEY_POSID, posId);
         intent.putExtra(KEY_LOGO, logo);
+        intent.putExtra(KEY_SPLASH_BUTTON_TYPE, buttonType);
         intent.putExtra(KEY_TIMEOUT, timeout);
         activity.startActivity(intent);
         // 设置进入动画
