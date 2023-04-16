@@ -20,6 +20,9 @@ __attribute__((objc_subclassing_restricted))
 /// GroMore SDK 版本
 @property (readonly, class) NSString *SDKVersion;
 
+/// 流量分组信息
+@property (nonatomic, strong, readonly) ABUUserInfoForSegment *userInfoForSegment;
+
 /// 初始化GroMore方法，不初始化将无法使用GroMore的相关功能
 /// @param appId 在GroMore注册的应用ID
 /// @param config 初始化配置回调
@@ -65,6 +68,9 @@ __attribute__((objc_subclassing_restricted))
 
 /// 设置广告主题，扩展暗黑模式
 + (void)setThemeStatus:(ABUAdSDKThemeStatus)themeStatus;
+
+/// 设置自定义IDFA，格式需与IDFA格式相同，xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx，官方adapter中CSJ/KS/Klevin支持
++ (void)setCustomIDFA:(nonnull NSString *)customIDFA;
 
 /// 触发首次预缓存,针对特定广告位
 /// @param infos 广告对象

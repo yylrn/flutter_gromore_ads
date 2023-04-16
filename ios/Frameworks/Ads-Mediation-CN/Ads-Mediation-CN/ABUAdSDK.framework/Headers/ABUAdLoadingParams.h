@@ -100,6 +100,9 @@ extern NSString *const ABUAdLoadingParamNAExpectImageSize;
 /// 期望广告尺寸，NSValue/CGSize
 extern NSString *const ABUAdLoadingParamNAExpectSize;
 
+/// 期望摇一摇提示view的frame，NSValue/CGRect
+extern NSString *const ABUAdLoadingParamNAExpectShakeViewFrame;
+
 /// 是否是静音，NSNumber/BOOL
 extern NSString *const ABUAdLoadingParamNAIsMute;
 

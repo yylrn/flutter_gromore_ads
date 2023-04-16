@@ -1,5 +1,6 @@
 #import "AppDelegate.h"
 #import "GeneratedPluginRegistrant.h"
+#import <ABUAdSDK/ABUAdSDK.h>
 
 @implementation AppDelegate
 

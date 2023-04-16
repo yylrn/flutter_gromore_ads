@@ -48,4 +48,8 @@
 /// @param filterWords 广告关闭原因，adapter开发者透传数据
 - (void)nativeAdExpressViewDidClosed:(ABUNativeAdView *_Nullable)nativeAdView closeReason:(NSArray<NSDictionary *> *_Nullable)filterWords;
 
+/// 广告摇一摇提示view消除时调用该方法
+/// @param nativeAdView 广告视图
+- (void)nativeAdShakeViewDidDismiss:(ABUNativeAdView *_Nullable)nativeAdView;
+
 @end

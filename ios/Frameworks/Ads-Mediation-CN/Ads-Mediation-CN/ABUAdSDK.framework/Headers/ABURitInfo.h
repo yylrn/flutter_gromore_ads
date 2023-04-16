@@ -36,5 +36,23 @@
 // adn提供的真实广告加载ID，可为空
 @property (nonatomic, copy, readonly, nullable) NSString *requestID;
 
+// 广告位类型
+@property (nonatomic, copy, readonly, nullable) NSString *adRitType;
+
+// 流量分组ID
+@property (nonatomic, strong, readonly, nullable) NSNumber *segmentId;
+
+// AB实验分组ID
+@property (nonatomic, strong, readonly, nullable) NSNumber *abtestId;
+
+// 渠道名称
+@property (nonatomic, copy, readonly, nullable) NSString *channel;
+
+// 子渠道名称
+@property (nonatomic, copy, readonly, nullable) NSString *sub_channel;
+
+// 场景ID
+@property (nonatomic, copy, readonly, nullable) NSString *scenarioId;
+
 @end
 

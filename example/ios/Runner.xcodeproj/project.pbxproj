@@ -3,13 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		04DD503428DB1FDB00D57BA7 /* ios_config_5209496.json in Resources */ = {isa = PBXBuildFile; fileRef = 04DD503328DB1FDB00D57BA7 /* ios_config_5209496.json */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		506C224D29EC0FB700BE53F2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C224A29EC0F8900BE53F2 /* libz.tbd */; };
+		506C224F29EC0FCC00BE53F2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C224E29EC0FCC00BE53F2 /* libsqlite3.tbd */; };
+		506C225129EC104C00BE53F2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C225029EC104C00BE53F2 /* CoreMotion.framework */; };
+		506C225329EC105C00BE53F2 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C225229EC105C00BE53F2 /* libresolv.tbd */; };
+		506C225529EC106B00BE53F2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C225429EC106B00BE53F2 /* libc++.tbd */; };
+		506C225729EC107900BE53F2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C225629EC107900BE53F2 /* AdSupport.framework */; };
+		506C225929EC10A700BE53F2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C225829EC10A700BE53F2 /* SystemConfiguration.framework */; };
+		506C225B29EC10C000BE53F2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C225A29EC10C000BE53F2 /* WebKit.framework */; };
+		506C225D29EC10D900BE53F2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C225C29EC10D900BE53F2 /* CoreLocation.framework */; };
+		506C225F29EC11C400BE53F2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 506C225E29EC11C400BE53F2 /* CoreTelephony.framework */; };
 		978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */; };
 		97C146F31CF9000F007C117D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C146F21CF9000F007C117D /* main.m */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
@@ -38,6 +48,16 @@
 		283DAB62945052BCDBBB39E6 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		4703E65FBD011537C610E06E /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		506C224A29EC0F8900BE53F2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		506C224E29EC0FCC00BE53F2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		506C225029EC104C00BE53F2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		506C225229EC105C00BE53F2 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		506C225429EC106B00BE53F2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		506C225629EC107900BE53F2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		506C225829EC10A700BE53F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		506C225A29EC10C000BE53F2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		506C225C29EC10D900BE53F2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		506C225E29EC11C400BE53F2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
 		7AFFD8ED1D35381100E5BB4D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +78,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				506C225F29EC11C400BE53F2 /* CoreTelephony.framework in Frameworks */,
+				506C225D29EC10D900BE53F2 /* CoreLocation.framework in Frameworks */,
+				506C225B29EC10C000BE53F2 /* WebKit.framework in Frameworks */,
+				506C225929EC10A700BE53F2 /* SystemConfiguration.framework in Frameworks */,
+				506C225729EC107900BE53F2 /* AdSupport.framework in Frameworks */,
+				506C225529EC106B00BE53F2 /* libc++.tbd in Frameworks */,
+				506C225329EC105C00BE53F2 /* libresolv.tbd in Frameworks */,
+				506C225129EC104C00BE53F2 /* CoreMotion.framework in Frameworks */,
+				506C224F29EC0FCC00BE53F2 /* libsqlite3.tbd in Frameworks */,
+				506C224D29EC0FB700BE53F2 /* libz.tbd in Frameworks */,
 				FDD33B8C0FE34A2719D19059 /* libPods-Runner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +116,16 @@
 		75A3B89DCA7285B44ED589D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				506C225E29EC11C400BE53F2 /* CoreTelephony.framework */,
+				506C225C29EC10D900BE53F2 /* CoreLocation.framework */,
+				506C225A29EC10C000BE53F2 /* WebKit.framework */,
+				506C225829EC10A700BE53F2 /* SystemConfiguration.framework */,
+				506C225629EC107900BE53F2 /* AdSupport.framework */,
+				506C225429EC106B00BE53F2 /* libc++.tbd */,
+				506C225229EC105C00BE53F2 /* libresolv.tbd */,
+				506C225029EC104C00BE53F2 /* CoreMotion.framework */,
+				506C224E29EC0FCC00BE53F2 /* libsqlite3.tbd */,
+				506C224A29EC0F8900BE53F2 /* libz.tbd */,
 				7E97716EF707F52964DF8476 /* libPods-Runner.a */,
 			);
 			name = Frameworks;
@@ -160,7 +200,6 @@
 				97C146EC1CF9000F007C117D /* Resources */,
 				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
-				D06C9F2C459062A83121FB6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,23 +308,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D06C9F2C459062A83121FB6A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -377,7 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = N943VT2CQD;
+				DEVELOPMENT_TEAM = 436576PH6Y;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -393,7 +415,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zero.flutterGromoreAdsExample222;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshumo.dyapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -511,8 +533,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = N943VT2CQD;
+				DEVELOPMENT_TEAM = 436576PH6Y;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -527,7 +550,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zero.flutterGromoreAdsExample222;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshumo.dyapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -540,7 +563,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = N943VT2CQD;
+				DEVELOPMENT_TEAM = 436576PH6Y;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -556,7 +579,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zero.flutterGromoreAdsExample222;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eshumo.dyapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "";
 				VERSIONING_SYSTEM = "apple-generic";

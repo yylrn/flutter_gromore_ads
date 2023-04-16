@@ -32,16 +32,20 @@ target 'Runner' do
   # use_modular_headers!
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
   #1.GroMoreSDK核心库
-  pod 'Ads-Mediation-CN', :path=>'Frameworks/Ads-Mediation-CN'
+  pod 'Ads-Mediation-CN', :path=>'Frameworks/Ads-Mediation-CN_4.0.0.1'
   # 2.GroMore官方适配adapter（请以接入文档0.3说明为准，请不要更换GroMoreSDK不支持的三方sdk版本）
   # 穿山甲
-  pod 'ABUAdCsjAdapter', :path=>'Frameworks/ABUAdCsjAdapter/'
-  pod 'Ads-CN','4.9.0.6'
+  pod 'ABUAdCsjAdapter', :path=>'Frameworks/ABUAdCsjAdapter_5.1.0.2.0/'
+
+  pod 'Ads-CN','5.0.0.4' #穿山甲广告
   # 穿山甲beta灰度版
   #pod 'Ads-CN-Beta', '3.8.0.0'
   # 广点通/优量汇
-  pod 'ABUAdGdtAdapter', :path=>'Frameworks/ABUAdGdtAdapter'
-  pod 'GDTMobSDK','4.14.02'
+  pod 'ABUAdGdtAdapter', :path=>'Frameworks/ABUAdGdtAdapter_4.14.10.0'
+  pod 'GDTMobSDK', '4.14.10' #优量汇广告
+  pod 'BURelyFoundation'
+
+  
   # 百度SDK
 #  pod 'ABUAdBaiduAdapter', :path=>'Frameworks/ABUAdBaiduAdapter'
 #  pod 'BaiduMobAdSDK', '4.901'
